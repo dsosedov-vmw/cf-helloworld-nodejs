@@ -1,0 +1,6 @@
+---
+applications:
+- name: dsosedov-cf-helloworld
+  memory: 8MB
+  instances: 1
+  command: node ./src/app.js
