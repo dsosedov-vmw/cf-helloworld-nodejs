@@ -2,6 +2,6 @@
 applications:
 - name: dsosedov-cf-helloworld-nodejs
   memory: 4M
-  disk quota: 128M
+  disk_quota: 128M
   instances: 1
   command: node ./src/app.js
